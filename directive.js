@@ -1,6 +1,6 @@
 export default {
     bind(el, binding) {
-        const { value } = binding;
+        const value = binding.value;
         const defaultLoading = 'http://de.4-traders.com/images/loading_100.gif';
         const defaultError = 'https://pbs.twimg.com/media/BXhh-sfIAAArh4S.jpg';
         const img = new Image();
